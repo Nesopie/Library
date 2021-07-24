@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" content="width=device-width intial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js" defer></script>
+        <title>Library</title>
+    </head>
+    <body>
+        <header>
+            Library
+        </header>
+        <div class="container">
+            <div class="cards">
+                <!-- <div class="bookCard">
+                    <div class="bookItem">
+                        Title
+                    </div>
+                    <div class="bookItem">
+                        Author
+                    </div>
+                    <div class="bookItem">
+                        Number of pages
+                    </div>
+                    <div class="bookItem">
+                        Number of pages read
+                    </div>
+                    <div class="bookCardBtns">
+                        <button class="cardBtn editBtn"type="button" name="button">Edit</button>
+                        <button class="cardBtn removeBtn"type="button" name="button">Remove</button>
+                        <input type="checkbox" id="switch" class="checkbox" name="" value=" ">
+                        <label class="toggle" for="switch"><p>Read</p></label>
+                    </div>
+                </div> -->
+                <div class="addCard">
+                    <button id="plus" type="button" name="addCard">
+                        <div class="imgContainer">
+                            <img id="plusImg" src="https://svg-clipart.com/svg/blue/np8B9eM-blue-plus-sign-vector.svg" alt="Add">
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bookForm">
+            <div class="mainForm">
+                <div class="formHeader">
+                    New Book
+                </div>
+                <form class="textInput" action="index.html" method="post">
+                    <div class="enterBook">
+                        <label for="book" style="color: #ccffff; font-size: 25px; visibility: hidden">Book</label>
+                        <input id="book" type="text" name="" value="" placeholder="Book" required>
+                    </div>
+                    <div class="enterAuthor">
+                        <label for="author" style="color: #ccffff; font-size: 25px; visibility: hidden">Author</label>
+                        <input id="author" type="text" name="" value="" placeholder="Author" required>
+                    </div>
+                    <div class="enterPages">
+                        <label for="pages" style="color: #ccffff; font-size: 25px; visibility: hidden">Number of pages</label>
+                        <input id="pages"type="text" name="" value="" placeholder="Number of pages" required>
+                    </div>
+                    <div class="enterCompletedPages">
+                        <label for="compeletedPages" style="color: #ccffff; font-size: 25px; visibility: hidden">Number of pages compeleted</label>
+                        <input id="compeletedPages" type="text" name="" value="" placeholder="Number of pages completed" required>
+                    </div>
+                </form>
+                <div class="formButtons">
+                    <button class="formButton" id="cancel" type="button" name="button">Cancel</button>
+                    <button class="formButton" id="add" type="button" name="button">Add</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
